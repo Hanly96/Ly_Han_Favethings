@@ -1,6 +1,6 @@
 const config ={
     user:"root",
-    pword:"".
+    pword:"",
     host:"localhost",
     port:"3306",
     database:"favethings"
