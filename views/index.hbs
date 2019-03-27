@@ -1,11 +1,25 @@
-<section id="heroes">
-  {{#each avatars}}
-    <div class="hero-container">
-      <a href="/{{name}}">
-        <img src="/images/{{avatar}}" alt="avatar">
-      </a>
+<section id="resortContainer">
+    <!-- this is a loop with handlebars -->
+    {{#each resort}}
+        <div class="thumbnail">
+            <a href="/{{name}}">
+                <img src="/images/{{image}}" alt="image">
+            </a>
 
-      <h3 class="hero-name">{{name}}</h3>
-    </div>
-  {{/each}}
+            <h3 class="hero-name">{{name}}</h3>
+        </div>        
+    {{/each}}
 </section>
+
+{{!-- <section id="heroes">
+    <!-- this is a loop with handlebars -->
+    {{#each avatars}}
+        <div class="hero-container">
+            <a href="/{{name}}">
+                <img src="/images/{{photo}}" alt="avatar">
+            </a>
+
+            <h3 class="hero-name">{{name}}</h3>
+        </div>        
+    {{/each}}
+</section> --}}

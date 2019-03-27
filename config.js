@@ -1,9 +1,9 @@
 const config ={
     user:"root",
-    pword:"",
+    pword:"root",
     host:"localhost",
-    port:"3306",
-    database:"favethings"
+    port:"8889",
+    database:"db_tourism"
 }
 
 module.exports = config;
